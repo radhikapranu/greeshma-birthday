@@ -9,44 +9,39 @@
 </head>
 <body>
 
-    <!-- Floating Hearts -->
     <div id="hearts"></div>
 
-    <!-- Welcome Section -->
     <section class="hero">
-        <h1>Happy Birthday Greeshma! 🎂❤️</h1>
-        <p>To my bestie, my twinning sister, my forever person 🥹💗</p>
-        <p>I made something special just for you! 🎀</p>
-
-        <button id="startBtn">Click Here Bestie 💌</button>
+        <div class="heart-icon">💗</div>
+        <p class="small-title">A SPECIAL DAY FOR MY SPECIAL PERSON</p>
+        <h1>Happy Birthday<br><span>Greeshma!</span></h1>
+        <p class="subtitle">My bestie • My twin • My forever person 🫶🏻</p>
+        <button id="startBtn">Open Your Surprise 💌</button>
+        <div class="scroll-text">MADE WITH LOVE ❤️</div>
     </section>
 
-    <!-- Birthday Gift -->
-    <section id="gift" class="gift-section" style="display:none;">
-        <h2>A Little Surprise For You 🎁💖</h2>
-        <div id="giftEmoji">🎁</div>
-        <p id="giftHint">Tap the gift to unlock your surprise!</p>
-        <button id="giftBtn">Open Your Gift 💝</button>
+    <section id="gift" class="section hidden">
+        <p class="eyebrow">JUST FOR YOU 🎀</p>
+        <h2>A Little Surprise</h2>
+        <div class="gift-box" id="giftEmoji">🎁</div>
+        <p id="giftHint">A little gift filled with lots of love!</p>
+        <button id="giftBtn">Unwrap Your Gift 💝</button>
 
-        <div id="reveal" style="display:none;">
-            <h2>Happiest Birthday, My Girl! 🥹❤️</h2>
-            <p>
-                You are not just my best friend.
-                You are my sister by heart, my partner in crime,
-                my safe place, and my forever favourite person.
-                Love you endlessly! 💗♾️
-            </p>
-            <button id="memoryBtn">See Our Memories 📸💕</button>
+        <div id="reveal" class="hidden">
+            <h2>Happiest Birthday, Bestie! 🥹❤️</h2>
+            <p>You are one of the most precious people in my life.
+            Thank you for being my happiness, my comfort, and my forever person.</p>
+            <p class="forever">Forever us ♾️💗</p>
+            <button id="memoryBtn">Our Beautiful Memories 📸</button>
         </div>
     </section>
 
-    <!-- Our Memories -->
-    <section id="memories" class="memories-section" style="display:none;">
-        <h2>Our Beautiful Memories 👭💗</h2>
-        <p>Every moment with you is special! 🫶🏻</p>
+    <section id="memories" class="section hidden">
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+        <h2>Our Beautiful Memories 📸</h2>
+        <p class="section-text">Every picture holds a little piece of my heart. 💕</p>
 
         <div class="photo-gallery">
-
             <figure class="photo-card">
                 <img src="pic1.jpeg" alt="Twinning girls">
                 <figcaption>Twinning gurls 👭💗</figcaption>
@@ -58,64 +53,46 @@
             </figure>
 
             <figure class="photo-card">
-                <img src="pic3.jpeg" alt="Forever person">
+                <img src="pic3.jpeg" alt="My forever person">
                 <figcaption>Forever person 🥹❤️♾️</figcaption>
             </figure>
-
         </div>
     </section>
 
-    <!-- Birthday Letter -->
-    <section id="letter" class="letter-section">
-        <h2>A Letter To My Bestie 💌</h2>
+    <section id="letter" class="section letter-section hidden">
+        <p class="eyebrow">FROM MY HEART TO YOURS 💌</p>
+        <h2>Dear Greeshma, ❤️</h2>
 
-        <p>
-            Happiest Birthday to my beautiful bestie! 🥹❤️
-            I don't even know where to begin because words
-            will never be enough to explain how special
-            you are to me.
-        </p>
+        <p>Happy Birthday to my beautiful bestie! 🥹💗</p>
 
-        <p>
-            From laughing at the smallest things to thinking
-            exactly alike, we are literally like twinning sisters!
-            Sometimes I wonder how two people can have
-            the same thoughts and the same crazy energy. 😂💕
-        </p>
+        <p>You are not just a friend to me. You are my sister by heart,
+        my partner in crime, my twin soul, and my forever person.</p>
 
-        <p>
-            Thank you for staying with me through every phase
-            of my life, understanding me without explanations,
-            and making every moment a beautiful memory.
-        </p>
+        <p>From our silly conversations to our endless laughter,
+        from understanding each other without words to thinking alike,
+        every little thing about our friendship is special to me.</p>
 
-        <p>
-            No matter how much life changes, I want our
-            friendship to remain the same forever.
-            You will always be my bestie, my sister,
-            and my forever person. 🫂❤️
-        </p>
+        <p>Thank you for being a part of my life and making ordinary
+        days feel extraordinary. No matter where life takes us,
+        I hope we always stay this close.</p>
 
-        <p>
-            I wish you endless happiness, success,
-            beautiful memories, and all the love
-            your heart deserves.
-        </p>
+        <p>May all your dreams come true. May your smile never fade.
+        And may life give you every beautiful thing you deserve. 🎂✨</p>
 
-        <h3>Love you forever and always! 💋♾️</h3>
+        <h3>Love you endlessly, my twin! ❤️♾️</h3>
     </section>
 
-    <!-- Final Surprise -->
-    <section class="final-section">
-        <h2>One Last Surprise! 🎉💗</h2>
-        <p>Ready for some birthday magic, Greeshma? ✨</p>
-        <button id="celebrateBtn">Celebrate! 🎊❤️</button>
-        <h2>Forever My Twinning Sister 👭💖</h2>
+    <section class="section final-section">
+        <p class="eyebrow">ONE LAST THING ✨</p>
+        <h2>Here's to Forever! 🥂</h2>
+        <p>One bestie. A million memories. A friendship forever.</p>
+        <button id="celebrateBtn">Let's Celebrate! 🎉</button>
+        <p class="signature">Made with endless love for Greeshma 💗</p>
     </section>
 
-    <!-- Confetti -->
+    <footer>BESTIES TODAY, TOMORROW & FOREVER 👭❤️</footer>
+
     <canvas id="confettiCanvas"></canvas>
-
     <script src="script.js"></script>
 </body>
 </html>
