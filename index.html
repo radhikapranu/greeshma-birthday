@@ -2,97 +2,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Greeshma ❤️</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Greeshma! 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
-    <div id="hearts"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
 
-    <section class="hero">
-        <div class="heart-icon">💗</div>
-        <p class="small-title">A SPECIAL DAY FOR MY SPECIAL PERSON</p>
-        <h1>Happy Birthday<br><span>Greeshma!</span></h1>
-        <p class="subtitle">My bestie • My twin • My forever person 🫶🏻</p>
-        <button id="startBtn">Open Your Surprise 💌</button>
-        <div class="scroll-text">MADE WITH LOVE ❤️</div>
-    </section>
+  <header class="hero">
+    <h1>Happy Birthday, Greeshma!</h1>
+    <div class="hero-emojis">🎂 💗</div>
+    <p>To my bestie, my twin soul, and my forever person 🫶🏻</p>
+    <button id="surpriseButton">Your surprise awaits 💌</button>
+  </header>
 
-    <section id="gift" class="section hidden">
-        <p class="eyebrow">JUST FOR YOU 🎀</p>
-        <h2>A Little Surprise</h2>
-        <div class="gift-box" id="giftEmoji">🎁</div>
-        <p id="giftHint">A little gift filled with lots of love!</p>
-        <button id="giftBtn">Unwrap Your Gift 💝</button>
+  <section class="letter">
+    <h2>To My Favourite Person 💖</h2>
+    <p>
+      Happy Birthday to my beautiful bestie! 🥹❤️ You are more than just
+      a friend to me: you are like a sister, my partner in crime, and one
+      of the most precious people in my life. From our silly conversations
+      to our endless laughter, we share a bond that words can never fully
+      explain. Sometimes, it feels like we have the same mind because we
+      think alike, understand each other, and match each other's energy
+      like twins!
+    </p>
+    <p>
+      Thank you for standing beside me through every phase, for
+      understanding me, and for making even ordinary moments special.
+      No matter where life takes us, I hope our friendship stays forever.
+    </p>
+    <p>You deserve all the happiness, love, success, and beautiful things
+      this world has to offer. Keep smiling, keep shining, and never forget
+      how special you are to me. 💕
+    </p>
+    <p class="signature">Forever my bestie. Forever my twin. ♾️❤️</p>
+  </section>
 
-        <div id="reveal" class="hidden">
-            <h2>Happiest Birthday, Bestie! 🥹❤️</h2>
-            <p>You are one of the most precious people in my life.
-            Thank you for being my happiness, my comfort, and my forever person.</p>
-            <p class="forever">Forever us ♾️💗</p>
-            <button id="memoryBtn">Our Beautiful Memories 📸</button>
-        </div>
-    </section>
+  <section class="memories">
+    <h2>Our Beautiful Memories 📸💗</h2>
+    <div class="gallery">
+      <figure class="photo-card">
+        <img src="pic1.jpeg" alt="Twinning girls">
+        <figcaption>Twinning gurls 👭💗</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <img src="pic%202.jpeg" alt="Partners in crime">
+        <figcaption>Partners in crime forever 😂🫶🏻</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <img src="pic3.jpeg" alt="My forever person">
+        <figcaption>Forever person 🥹❤️♾️</figcaption>
+      </figure>
+    </div>
+  </section>
 
-    <section id="memories" class="section hidden">
-        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
-        <h2>Our Beautiful Memories 📸</h2>
-        <p class="section-text">Every picture holds a little piece of my heart. 💕</p>
+  <section class="surprise" id="surprise">
+    <h2>A little gift just for you, Greeshma 🎁</h2>
+    <p>There's something special waiting inside. Ready to open it?</p>
+    <div class="gift-icon">🎉</div>
+    <p>Your surprise is here, Greeshma! 💗</p>
+    <div id="surpriseMessage">
+      <h2>Surpriseee, Greeshma! 💗</h2>
+      <p>
+        Happy Birthday to my bestie, my twinning sister, and my forever
+        favourite person! 🥹💗👭 You are my sister by heart, my comfort
+        person, my secret keeper, and my partner in all kinds of craziness.
+        Love you forever! ❤️♾️
+      </p>
+    </div>
+    <button id="memoryButton">Let's relive our memories 📸</button>
+  </section>
 
-        <div class="photo-gallery">
-            <figure class="photo-card">
-                <img src="pic1.jpeg" alt="Twinning girls">
-                <figcaption>Twinning gurls 👭💗</figcaption>
-            </figure>
+  <footer>Made with love, just for you, Greeshma 💗</footer>
 
-            <figure class="photo-card">
-                <img src="pic%202.jpeg" alt="Partners in crime">
-                <figcaption>Partners in crime forever 😂🫶🏻</figcaption>
-            </figure>
-
-            <figure class="photo-card">
-                <img src="pic3.jpeg" alt="My forever person">
-                <figcaption>Forever person 🥹❤️♾️</figcaption>
-            </figure>
-        </div>
-    </section>
-
-    <section id="letter" class="section letter-section hidden">
-        <p class="eyebrow">FROM MY HEART TO YOURS 💌</p>
-        <h2>Dear Greeshma, ❤️</h2>
-
-        <p>Happy Birthday to my beautiful bestie! 🥹💗</p>
-
-        <p>You are not just a friend to me. You are my sister by heart,
-        my partner in crime, my twin soul, and my forever person.</p>
-
-        <p>From our silly conversations to our endless laughter,
-        from understanding each other without words to thinking alike,
-        every little thing about our friendship is special to me.</p>
-
-        <p>Thank you for being a part of my life and making ordinary
-        days feel extraordinary. No matter where life takes us,
-        I hope we always stay this close.</p>
-
-        <p>May all your dreams come true. May your smile never fade.
-        And may life give you every beautiful thing you deserve. 🎂✨</p>
-
-        <h3>Love you endlessly, my twin! ❤️♾️</h3>
-    </section>
-
-    <section class="section final-section">
-        <p class="eyebrow">ONE LAST THING ✨</p>
-        <h2>Here's to Forever! 🥂</h2>
-        <p>One bestie. A million memories. A friendship forever.</p>
-        <button id="celebrateBtn">Let's Celebrate! 🎉</button>
-        <p class="signature">Made with endless love for Greeshma 💗</p>
-    </section>
-
-    <footer>BESTIES TODAY, TOMORROW & FOREVER 👭❤️</footer>
-
-    <canvas id="confettiCanvas"></canvas>
-    <script src="script.js"></script>
 </body>
 </html>
