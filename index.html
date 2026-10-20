@@ -1,103 +1,121 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Greeshma! 💗</title>
+    <title>Happy Birthday Greeshma ❤️</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="hero">
-        <h1>Happy Birthday, Greeshma! 🎂💗</h1>
-        <p>To my bestie, my twin soul, and my forever person 🫶🏻</p>
-    </header>
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
 
-    <main>
-        <section class="message">
-            <h2>To My Favourite Person 💖</h2>
+    <!-- Welcome Section -->
+    <section class="hero">
+        <h1>Happy Birthday Greeshma! 🎂❤️</h1>
+        <p>To my bestie, my twinning sister, my forever person 🥹💗</p>
+        <p>I made something special just for you! 🎀</p>
 
+        <button id="startBtn">Click Here Bestie 💌</button>
+    </section>
+
+    <!-- Birthday Gift -->
+    <section id="gift" class="gift-section" style="display:none;">
+        <h2>A Little Surprise For You 🎁💖</h2>
+        <div id="giftEmoji">🎁</div>
+        <p id="giftHint">Tap the gift to unlock your surprise!</p>
+        <button id="giftBtn">Open Your Gift 💝</button>
+
+        <div id="reveal" style="display:none;">
+            <h2>Happiest Birthday, My Girl! 🥹❤️</h2>
             <p>
-                Happy Birthday to my beautiful bestie! 🥹❤️
-                You are more than just a friend to me; you are like
-                a sister, my partner in crime, and one of the most
-                precious people in my life.
+                You are not just my best friend.
+                You are my sister by heart, my partner in crime,
+                my safe place, and my forever favourite person.
+                Love you endlessly! 💗♾️
             </p>
+            <button id="memoryBtn">See Our Memories 📸💕</button>
+        </div>
+    </section>
 
-            <p>
-                From our silly conversations to our endless laughter,
-                we share a bond that words can never fully explain.
-                Sometimes, it feels like we have the same mind because
-                we think alike, understand each other, and match each
-                other's energy like twins! 👭✨
-            </p>
+    <!-- Our Memories -->
+    <section id="memories" class="memories-section" style="display:none;">
+        <h2>Our Beautiful Memories 👭💗</h2>
+        <p>Every moment with you is special! 🫶🏻</p>
 
-            <p>
-                Thank you for standing beside me through every phase,
-                for understanding me, and for making even ordinary
-                moments special. No matter where life takes us,
-                I hope our friendship stays just as beautiful forever.
-            </p>
+        <div class="photo-gallery">
 
-            <p>
-                You deserve all the happiness, love, success, and
-                beautiful things this world has to offer.
-                Keep smiling, keep shining, and never forget how
-                special you are to me. 💕
-            </p>
+            <figure class="photo-card">
+                <img src="pic1.jpeg" alt="Twinning girls">
+                <figcaption>Twinning gurls 👭💗</figcaption>
+            </figure>
 
-            <h3>Forever my bestie. Forever my twin. ♾️❤️</h3>
-        </section>
+            <figure class="photo-card">
+                <img src="pic%202.jpeg" alt="Partners in crime">
+                <figcaption>Partners in crime forever 😂🫶🏻</figcaption>
+            </figure>
 
-        <section class="gallery">
-            <h2>Our Beautiful Memories 📸💗</h2>
+            <figure class="photo-card">
+                <img src="pic3.jpeg" alt="Forever person">
+                <figcaption>Forever person 🥹❤️♾️</figcaption>
+            </figure>
 
-            <div class="photo-gallery">
+        </div>
+    </section>
 
-                <figure class="photo-card">
-                    <img src="pic1.jpeg" alt="Twinning girls"
-                         onerror="this.alt='Photo 1 could not load';">
-                    <figcaption>Twinning gurls 👭💗</figcaption>
-                </figure>
+    <!-- Birthday Letter -->
+    <section id="letter" class="letter-section">
+        <h2>A Letter To My Bestie 💌</h2>
 
-                <figure class="photo-card">
-                    <img src="pic%202.jpeg" alt="Partners in crime"
-                         onerror="this.alt='Photo 2 could not load';">
-                    <figcaption>Partners in crime forever 😂🫶🏻</figcaption>
-                </figure>
+        <p>
+            Happiest Birthday to my beautiful bestie! 🥹❤️
+            I don't even know where to begin because words
+            will never be enough to explain how special
+            you are to me.
+        </p>
 
-                <figure class="photo-card">
-                    <img src="pic3.jpeg" alt="My forever person"
-                         onerror="this.alt='Photo 3 could not load';">
-                    <figcaption>Forever person 🥹❤️♾️</figcaption>
-                </figure>
+        <p>
+            From laughing at the smallest things to thinking
+            exactly alike, we are literally like twinning sisters!
+            Sometimes I wonder how two people can have
+            the same thoughts and the same crazy energy. 😂💕
+        </p>
 
-            </div>
-        </section>
+        <p>
+            Thank you for staying with me through every phase
+            of my life, understanding me without explanations,
+            and making every moment a beautiful memory.
+        </p>
 
-        <section class="final-wish">
-            <h2>A Little Birthday Wish 🎀</h2>
+        <p>
+            No matter how much life changes, I want our
+            friendship to remain the same forever.
+            You will always be my bestie, my sister,
+            and my forever person. 🫂❤️
+        </p>
 
-            <p>
-                May this new chapter of your life bring endless smiles,
-                unforgettable memories, and dreams that come true.
-                Whatever happens, remember that you'll always have
-                a special place in my heart. 💖
-            </p>
+        <p>
+            I wish you endless happiness, success,
+            beautiful memories, and all the love
+            your heart deserves.
+        </p>
 
-            <p class="love">Love you loads, bestie! 🫂💋</p>
+        <h3>Love you forever and always! 💋♾️</h3>
+    </section>
 
-            <p class="signature">With lots of love, your twin soul 💗</p>
-        </section>
-    </main>
+    <!-- Final Surprise -->
+    <section class="final-section">
+        <h2>One Last Surprise! 🎉💗</h2>
+        <p>Ready for some birthday magic, Greeshma? ✨</p>
+        <button id="celebrateBtn">Celebrate! 🎊❤️</button>
+        <h2>Forever My Twinning Sister 👭💖</h2>
+    </section>
 
-    <footer>
-        <p>Made with endless love for Greeshma ❤️🎂</p>
-    </footer>
+    <!-- Confetti -->
+    <canvas id="confettiCanvas"></canvas>
 
     <script src="script.js"></script>
 </body>
 </html>
-```
